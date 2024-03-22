@@ -1,4 +1,4 @@
-
+{{--
 
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
@@ -34,4 +34,47 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> --}}
+
+
+
+
+<!--
+        ===================
+           NAVIGATION
+        ===================
+        -->
+<header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header ">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/exp">Experiences</a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>

@@ -1,4 +1,4 @@
 <x-pagelayout>
-
-    <x-hero></x-hero>
+    <x-home></x-home>
+    <x-contact></x-contact>
 </x-pagelayout>
